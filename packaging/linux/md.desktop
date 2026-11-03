@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=md
+Comment=Ultraminimal markdown buffers
+Exec=md
+Icon=md
+Terminal=false
+Categories=Office;TextEditor;
+StartupWMClass=md

@@ -1,0 +1,19 @@
+name: build
+on:
+  push: { branches: [main] }
+  pull_request:
+
+jobs:
+  build:
+    runs-on: macos-14
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: jurplel/install-qt-action@v4
+        with: { version: '6.8.2', cache: true }
+
+      - run: brew install ninja
+
+      - run: cmake --preset dev
+      - run: cmake --build --preset dev
+      - run: ctest --preset dev --output-on-failure

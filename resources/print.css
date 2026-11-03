@@ -1,0 +1,12 @@
+body {
+    color: #1f1f1f;
+    font-family: Charter, Georgia, serif;
+}
+h1 { font-size: 20pt; margin-top: 0; }
+h2 { font-size: 16pt; }
+h3 { font-size: 13pt; }
+p { margin-top: 0; margin-bottom: 8pt; }
+code, pre { font-family: Menlo, Courier, monospace; font-size: 9pt; }
+pre { background-color: #f1efe9; margin-top: 8pt; margin-bottom: 8pt; }
+table { border: 1px solid #d6d3cb; }
+td, th { border: 1px solid #d6d3cb; padding: 4px; }
